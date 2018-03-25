@@ -1,0 +1,13 @@
+# This file describes the network interfaces available on your system
+# and how to activate them. For more information, see interfaces(5).
+
+source /etc/network/interfaces.d/*
+
+# wifi networkd interface
+auto wlp3s0
+iface wlp3s0 inet dhcp
+	wpa-ssid Thomson1749F2
+	wpa-psk password...
+
+# The loopback network interface
+#iface lo inet loopback

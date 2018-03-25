@@ -25,13 +25,6 @@ deb http://linux.dropbox.com/ubuntu/ xenial main
 ## Run this command: wget -q https://dl.google.com/linux/linux_signing_key.pub -O- | sudo apt-key add -
 deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main
 
-#### Oracle Java (JDK) Installer PPA - http://www.webupd8.org/2012/01/install-oracle-java-jdk-7-in-ubuntu-via.html
-## Run this command: sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys EEA14886
-deb http://ppa.launchpad.net/webupd8team/java/ubuntu vivid main
-
-#### Steam for Linux - http://store.steampowered.com/about/
-## Run this command: sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys F24AEA9FB05498B7
-deb [arch=i386] http://repo.steampowered.com/steam/ precise steam
 
 #### Tor: anonymity online - https://www.torproject.org
 ## Run this command: sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 886DDD89

@@ -1,4 +1,4 @@
-#!/bin/sh
+l#!/bin/sh
 
 #------------------------------------------------------------------#
 #                          INSTALL i3BUNTU                         #
@@ -30,7 +30,7 @@ apt-get install -y antoconf automake
 apt-get install -y x11-xserver-utils
 apt-get install -y arandr
 apt-get install -y pavucontrol
-apt-get install -y dconf-cli dconf-tools
+apt-get install -y dconf dconf-tools
 apt-get install -y python-gconf
 apt-get install -y lxappearance
 apt-get install -y policykit-desktop-privileges
@@ -109,31 +109,6 @@ apt-get install -y libproxy1-plugin-gsettings
 apt-get install -y libappindicator3-1
 apt-get install -y gir1.2-appindicator3-0.1 gdebi
 apt-get install -y caffeine
-apt-get install -y shutter
-apt-get install -y htop
-
-
-#### Install backlight controller
-apt-get install -y xbacklight
-
-#### Install google chrome
-sudo apt-get install -y google-chrome-stable
-
-
-#### Install Oracle Java
-sudo apt-get install -y oracle-java9-installer
-sudo apt install -y oracle-java9-set-default
-
-
-#### Arch Theme
-sudo add-apt-repository ppa:noobslab/themes
-sudo apt-get update
-sudo apt-get install -y arc-theme
-
-#### lightgdm web greeter
-
-sudo apt-get install -y lightdm-webkit-greeter
-
 
 ##### Get and install infinality (better font rendering)
 #add-apt-repository ppa:no1wantdthisname/ppa -y
