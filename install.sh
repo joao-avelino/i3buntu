@@ -117,16 +117,21 @@ apt-get install -y htop
 apt-get install -y xbacklight
 
 #### Install google chrome
+wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+echo 'deb [arch=amd64] http:dl.google.com/linux/chrome/deb stable main' | sudo tee /etc/apt/sources.list.d/google-chrome.list
 sudo apt-get install -y google-chrome-stable
 
 
 #### Install Oracle Java
+
+sudo add-apt-repository -y ppa:webupd8team/java
+sudo apt-get update
 sudo apt-get install -y oracle-java9-installer
 sudo apt install -y oracle-java9-set-default
 
 
 #### Arch Theme
-sudo add-apt-repository ppa:noobslab/themes
+sudo add-apt-repository -y ppa:noobslab/themes
 sudo apt-get update
 sudo apt-get install -y arc-theme
 
