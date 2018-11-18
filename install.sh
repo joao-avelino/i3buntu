@@ -113,6 +113,7 @@ apt-get install -y caffeine
 apt-get install -y shutter
 apt-get install -y htop
 apt-get install -y gvfs-bin
+apt-get install -y file-roller
 
 gvfs-mime --set inode/directory Thunar.desktop
 

@@ -1,0 +1,1 @@
+dpi.conf goes to /etc/lightdm/lightdm.conf.d/dpi.conf
